@@ -19,8 +19,8 @@ go:
   - 1.7.5
 build:
   pre_ci_boot:
-    image_name: drydock/u12gol
-    image_tag: prod
+    image_name: drydock/u16golall
+    image_tag: master
     pull: true
     
   ci:
