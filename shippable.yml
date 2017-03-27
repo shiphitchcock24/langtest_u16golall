@@ -18,20 +18,10 @@ go:
   - 1.6.4
   - 1.7.5
 services:
-  - cassandra 
-  #- elasticsearch 
-  - memcached 
-  - mongodb 
-  - mysql 
-  - neo4j 
-  - postgres 
-  - rabbitmq 
-  - redis 
-  - selenium
-  - sqllite 
-  - couchdb 
-  - rethinkdb 
-  - riak     
+ 
+  - elasticsearch 
+  - sqlite 
+    
 build:
   pre_ci_boot:
     image_name: drydock/u16golall
