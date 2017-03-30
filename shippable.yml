@@ -17,11 +17,7 @@ go:
   - 1.5.4
   - 1.6.4
   - 1.7.5
-services:
- 
-  - elasticsearch 
-  - sqlite 
-    
+
 build:
   pre_ci_boot:
     image_name: drydock/u16golall
