@@ -1,6 +1,20 @@
 # Language setting
 language: go
-
+services:
+ # - cassandra 
+ # - elasticsearch 
+ # - memcached 
+ # - mongodb 
+  - mysql 
+ # - neo4j 
+  - postgres 
+ # - rabbitmq 
+ # - redis 
+  - selenium 
+ # - sqlite 
+ # - couchdb 
+  - rethinkdb 
+ # - riak
 # Version number
 go:
   - 1.1
@@ -26,3 +40,7 @@ build:
     
   ci:
     - go version
+    - echo $SHIPPABLE_MYSQL_BINARY
+    - echo $SHIPPABLE_POSTGRES_BINARY
+    - echo $SHIPPABLE_SELENIUM_BINARY
+    - echo $SHIPPABLE_RETHINKDB_BINARY
