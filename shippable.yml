@@ -3,7 +3,7 @@ language: go
 services:
  # - cassandra 
  # - elasticsearch 
- # - memcached 
+ # - memcached  
  # - mongodb 
   - mysql 
  # - neo4j 
